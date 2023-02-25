@@ -160,3 +160,51 @@ footer {
   70% { transform: translate(-50%, -50%) rotate(45deg) scale(1.4); }
   100% { transform: translate(-50%, -50%) rotate(45deg) scale(1); }
 }
+
+/* 02 End */
+/* 03 Start */
+
+.container-03 {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(135deg, #1ba0ad, #6bf3c7);
+}
+
+.pepsi {
+  height: 300px;
+  width: 300px;
+  background-color: #34588e;
+  border-radius: 50%;
+  border: 10px solid white;
+  position: relative;
+  overflow: hidden;
+}
+
+.pepsi:before {
+  content: "";
+  position: absolute;
+  height: 400px;
+  width: 500px;
+  border-radius: 25%;
+  background-color: white;
+  position: absolute;
+  top: -160px;
+  left: -240px;
+  transform: rotate(-18deg);
+}
+
+.pepsi:after {
+  position: absolute;
+  content: "";
+  height: 500px;
+  width: 550px;
+  border-radius: 50%;
+  background-color: #da473c;
+  top: -275px;
+  left: -300px;
+}
+
+/* 03 END */
+/* 04 START */
