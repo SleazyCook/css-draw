@@ -1,6 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
 body {
   background-color: #1e1e1e;
 }
+
+/* Footer START */
+
+footer {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-top: 1px solid black;
+  color: white;
+}
+
+.author {
+  font-family: 'Berkshire Swash', cursive;
+}
+
+.udemy {
+  font-size: 1rem;
+}
+
+/* Footer END */
 
 .label {
   color: white;
